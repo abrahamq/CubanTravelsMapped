@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Cuban Travels Mapped</title>
+	
+	<style>
+		* { margin: 0; padding: 0; }
+		
+		html { 
+			background: url(images/Caribbean_map_blank.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		#page-wrap { width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
+	</style>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+
+  <script>
+  $(function() {
+    $( "#slider" ).slider();
+  });
+  </script>
+
+  <div id="page-wrap" style="position:fixed;
+		         bottom:20px;" >
+  <div id="slider">
+  </div>
+  </div>
+
+	
+</body>
+
+</html>
