@@ -1,0 +1,42 @@
+var data = {
+
+    "1956": [
+        {title: "Viaje en el Granma",
+            summary: "Empezando en el 1950, Ernesto Che Guevara viajó por todo Latinoamerica, observando los efectos del post-colonialismo estadounidense. Despues de conocer a los hermanos Castro en la Ciudad Mexico, los tres revolucionarios embarcaron el velero Granma con 82 soldados simpatizantes, viajando de Tuxpan a Playa Las Coloradas con la intención de derrocar el régimen de Fulgencio Batista.",
+            start: {lat: 20.9646, lng: -97.4045},
+            end: {lat: 19.9256213, lng: -77.6921917}
+        }
+    ],
+
+    "1959": [ 
+        {title: "Exilio de Batista",
+            summary: "El 1 de Enero, despues de la derrota en la ciudad de Santa Clara, Fulgencio Batista huyo de Havana, volando a Ciudad Trujillo en la Republica Dominicana con 40 simpatizantes y familia inmediata. Segun ciertas fuentes, se llevo mas de $300 millones recaudados por soborno.",
+            start: {lat: 23.113140, lng: -82.377351},
+            end: {lat: 18.4806503, lng: -70.0869828}
+        },
+        
+        {title: "Asilio Politico de Batista",
+            summary: "Despues de haber sido rechazado asilio politico en E.E.U.U. y en Mexico, el dictador António Salazar de Portugal acepto bajo la condición de que se absteniera de política. El 8 de Enero, Batista se fue a Portugal y paso el resto de sus días en la peninsula Iberica hasta su muerte el 6 de Agosto, 1973 en Marbella, España.",
+            start: {lat: 18.4806503, lng: -70.0869828},
+            end: {lat: 38.7223, lng: -9.1393}
+        }
+    ],
+
+    "1961": [
+        {title: "Bay of Pigs/Playa Girón",
+            summary: "El 17 de Abril, un grupo paramilitar fundado por la CIA intento una invasión de Cuba. El objetivo principal de la misión era derrocar el govierno comunista de Fidel Castro.",
+            start: {lat: 14.0391, lng: -83.3950},
+            end: {lat: 22.1604, lng: -81.1684}
+        }
+    ],
+
+    "1965": [
+        {title: "El Che Viaja al Congo",
+            summary: "Por razones desconocidas por el publico Fidel Castro anuncio el retiro de Che Guevara de la isla y leyo una carta de despedida a nombre del Che. Al irse de Cuba, Che Guevara viajó al Congo con 12 soldados cubanos para ayudar el movimiento guerrilla anti-Mobutu bajo el lideraje de Laurent-Desire Kabila. Este intento termino en fracaso.",
+            start: {lat: 23.113140, lng: -82.377351},
+            end: {lat: -4.4866518, lng: 14.7272946}
+        }
+    ]
+
+
+}; 

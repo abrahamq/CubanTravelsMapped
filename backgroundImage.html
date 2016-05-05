@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Cuban Travels Mapped</title>
+	
+	<style>
+		* { margin: 0; padding: 0; }
+		
+		html { 
+			background: url(images/Caribbean_map_blank.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+
+
+		
+		#page-wrap { width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
+	</style>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="./jcanvas.js"></script>
+
+</head>
+
+<body>
+  <canvas id="main" width="150" height="150"> 
+  </canvas> 
+
+
+  <script>
+
+  $(function() {
+
+  //size the canvas to screen: 
+  var domCanas = $("canvas"); 
+  var context = domCanas[0].getContext('2d');
+  var canvasObject = context.canvas; 
+  console.log(domCanas); 
+  context.canvas.width =  $(window).width();
+  context.canvas.height = $(window).height();
+
+  var havana = { "x": 625, "y": 183}; 
+  var miami = { "x": 825, "y": 79}; 
+
+  $('canvas').drawLine({
+    layer: true, 
+    name: 'myLine',
+    strokeStyle: '#000',
+    strokeWidth: 4,
+    rounded: true,
+    draggable: true,
+    startArrow: false,
+    endArrow: true,
+    arrowRadius: 15,
+    arrowAngle: 90,
+    x1: 630, y1: 200,
+    x2: 679, y2: 130,
+    drag: function(layer) {
+      layer.x1 = myRect.x - layer.x;
+      layer.y1 = myRect.y - layer.y;
+    }
+    });
+
+  $('#main').click(function (e){
+    var elm = $(this);
+    var xPos = e.pageX - elm.offset().left;
+    var yPos = e.pageY - elm.offset().top;
+
+    console.log(xPos, yPos);
+    });
+
+     var f = function(){
+      $('canvas').drawArc({
+        fillStyle: 'black',
+        x: 100, y: 100,
+        radius: 50
+        });
+        };
+        f(); 
+
+
+
+    var data = { "1950":  [{brief: "test"}, {brief: "test again"}],
+                 "1951":  [{brief: "test1"}], 
+                 "1952":  [{brief: "test2"}], 
+                 "1953":  [{brief: "test3"}], 
+                     };
+
+
+    $( "#slider" ).slider({
+      value:1950,
+      min: 1950,
+      max: 2016,
+      step: 1,
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "Year: " + ui.value );
+        var year = (ui.value).toString(); 
+        console.log(year); 
+        var obj = data[year]; 
+        if(obj !== undefined){
+          console.log(obj); 
+          $("#story").text(obj[0].brief); 
+        }
+      }
+    });
+    $( "#amount" ).val( "Year: " + $( "#slider" ).slider( "value" ) );
+  });
+  </script>
+  
+
+
+  <div id="page-wrap" style="position:fixed;
+    bottom:20px;" >
+
+    <div id="story">
+    </div>
+
+    <h1> 
+    <input type="text" id="amount" readonly style="border:0; color:red; font-weight:bold;">
+    </h1> 
+
+    <div id="slider">
+    </div>
+  </div>
+
+
+</body>
+
+</html>
