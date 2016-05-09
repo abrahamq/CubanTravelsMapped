@@ -66,6 +66,22 @@ $(function(){
         var year = (ui.value).toString(); 
         var obj = data[year]; 
         if(obj !== undefined){
+          //add the heading:
+          heading = ""; 
+          if(year < 1959){
+            heading = "Pre-Revolución"; 
+          } else if ( year < 1961){
+            heading = "La Nueva Sociedad";
+          } else if ( year < 1989){
+            heading = "El Tiempo Soviético ";
+          } else if ( year < 2000){
+            heading = "El Periodo Especial";
+          } else if ( year < 2008){
+            heading = "Nuevas Alcancías";
+          }
+          $("#heading").text(heading); 
+
+
           console.log(obj); 
           var id= 0; 
           obj.forEach( function(element){

@@ -10,8 +10,8 @@
         margin: 0;
         padding: 0;
       }
-      #map-outer {height: 100%; padding: 20px;  margin-bottom: 20px; background-color:#FFF }
-      #map-container { height: 600px;  min-height=500px; }
+      #map-outer {height: 100%; padding: 20px;  margin-bottom: 10px; background-color:#FFF }
+      #map-container { height: 650px;  min-height=500px; }
       #story-container{
         overflow:auto; 
       } 
@@ -35,24 +35,24 @@
   </head>
   <body>
 
-  
-  <div class="container-fluid">
-  <div class="row"  >
-    <div id="map-outer" class="col-md-12">
-      <div id="story-container" class="col-md-4">
-        <div class="list-group">
-        </div>
-          </div>
 
+  <div class="container-fluid">
+    <div id="map-outer" class="col-md-12">
+        <div id="story-container" class="col-md-4">
+          <h2 id="heading"  style="text-align: center;" >Pre-Revolución </h2> 
+          <div class="list-group">
+          </div>
+        </div>
         <div id="map-container" class="col-md-8"></div>
-      </div><!-- /map-outer -->
+        <h1> 
+          <input type="text" id="amount" readonly style="border:0; color:red; font-weight:bold;">
+        </h1> 
+        <div id="slider"></div> 
+      </div> <!-- /container -->
+
+    </div><!-- /map-outer -->
   </div> <!-- /row -->
 
-    <h1> 
-    <input type="text" id="amount" readonly style="border:0; color:red; font-weight:bold;">
-    </h1> 
-    <div id="slider"></div> 
-  </div> <!-- /container -->
 
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBScS3ddiCV_xZwo_qQcIBTUCkOSzzt4-E&callback=initMap"
