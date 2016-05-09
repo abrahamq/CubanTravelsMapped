@@ -2,14 +2,6 @@
 //scrollbar of summaries, see which summary -> trip 
 //checkbox- later= All, Political, Art,... 
 
-  //needs to be global 
-//  var data = {
-//    "1950": [ {title: "trial00", summary:"summary00", month:"", start:  {lat: 23.113140, lng: -82.377351}, end: {lat: 25.763757, lng: -80.190227}},
-//    {title: "trial01", summary:"summary01", month:"", start:  {lat: 23.113140, lng: -82.377351}, end: {lat: 25.763757, lng: -80.190227}}
-//], 
-//    "1951": [ {title: "trial1", summary:"summary1", month:"", start: {lat: 23.113140, lng: -82.377351}, end: {lat: 25.763757, lng: -80.190227}}], 
-//    "1952": [ {title: "trial2", summary:"summary2", month:"", start: {lat: 23.113140, lng: -82.377351}, end: {lat: 25.763757, lng: -80.190227}}], 
-//  };  
 
   var map;
   function initMap() {
@@ -25,35 +17,51 @@
     path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW
   };
 
-//	var flightPlanCoordinates = [
-//	{lat: 23.113140, lng: -82.377351},
-//	{lat: 25.763757, lng: -80.190227}
-//	];
-//	var flightPath = new google.maps.Polyline({
-//		path: flightPlanCoordinates,
-//    icons: [{
-//      icon: lineSymbol,
-//      offset: '100%'
-//    }],
-//		geodesic: true,
-//		strokeColor: '#FF0000',
-//		strokeOpacity: 1.0,
-//		strokeWeight: 2 
-//		});
-//
-//	flightPath.setMap(map);
 	map.setZoom(5); 
+
+  //first add all the lines in black 
+  var keys = Object.keys(data); 
+  console.log(keys); 
+  keys.forEach( function(elem){
+    data[elem].forEach(function(element){
+      var flightPlanCoordinates = [
+        {lat: element.start.lat, lng: element.start.lng},
+        {lat: element.end.lat, lng: element.end.lng}
+      ];
+      var flightPath = new google.maps.Polyline({
+        path: flightPlanCoordinates,
+        icons: [{
+          icon: lineSymbol,
+          offset: '100%'
+        }],
+        geodesic: true,
+        strokeColor: '#000000',
+        strokeOpacity: 1.0,
+        strokeWeight: 1 
+      });
+
+      flightPath.setMap(map);
+
+    }); 
+  }); 
+
+
 	}
 $(function(){
 
     var addedLines = []; 
+
+    var idToArrow = {}; 
+
+    var id= 0; 
+
 
 
     $( "#slider" ).slider({
       value:1950,
       min: 1950,
       max: 2016,
-      step: 1,
+      step: 5,
       slide: function( event, ui ) {
         //clear the list of travels: 
         $(".list-group").empty(); 
@@ -63,7 +71,8 @@ $(function(){
         } 
         
         $( "#amount" ).val( "Año: " + ui.value );
-        var year = (ui.value).toString(); 
+        for(var j =0; j< 5; j++){
+        var year = (ui.value+j).toString(); 
         var obj = data[year]; 
         if(obj !== undefined){
           //add the heading:
@@ -77,18 +86,28 @@ $(function(){
           } else if ( year < 2000){
             heading = "El Periodo Especial";
           } else if ( year < 2008){
-            heading = "Nuevas Alcancías";
+            heading = "Nuevas Alacias";
+          } else if ( year < 2016){
+            heading = "Normalización";
           }
+
+
+
           $("#heading").text(heading); 
 
 
-          console.log(obj); 
-          var id= 0; 
           obj.forEach( function(element){
           //add the title and summary 
           $(".list-group").append("<a id="+ "'"+ id.toString() +"'"  + "href='#' class='list-group-item'>" + element.title + "</a>");
           $("#"+id.toString()).append('<p class="list-group-item-heading">'+ element.summary + '</p>');
-          id = id+1; 
+
+          //if there's an image, then load it 
+          if(element.image !== undefined){
+            $("#"+id.toString()).append('<img class="img-responsive"src="'+ element.image + '" alt="" >'); //width="350" height="150"
+          } 
+
+
+
           //add the trip to map; 
 
           var lineSymbol = {
@@ -106,18 +125,23 @@ $(function(){
               offset: '100%'
               }],
               geodesic: true,
-              strokeColor: '#FF0000',
+              strokeColor: '#0066ff',
               strokeOpacity: 1.0,
-              strokeWeight: 2 
+              strokeWeight: 3 
               });
 
               addedLines.push(flightPath); 
+              idToArrow[id] = flightPath; 
               flightPath.setMap(map);
-
-
-            //$("<a href='#' class='list-group-item'>ahhhhh</a>").appendTo("#list-group");  
+              $("#"+id.toString()).hover(function(){ //handlerIn
+                flightPath.setOptions({strokeColor:'#FF0000'});
+              }, function(){ //handlerOut
+                flightPath.setOptions({strokeColor:'#0066ff'});
+              }); 
+              id = id+1; 
         }); 
         }
+      }
       }
     });
     $( "#amount" ).val( "Año: " + $( "#slider" ).slider( "value" ) );

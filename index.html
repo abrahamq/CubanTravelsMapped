@@ -15,8 +15,10 @@
       #story-container{
         overflow:auto; 
       } 
-      #list-group{
-        overflow:auto;
+      #list-container{
+        max-height: 650px; 
+        margin-bottom: 20px; 
+        overflow-y:scroll;
       }
       .container-full {
         margin: 0 auto;
@@ -30,6 +32,9 @@
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script src="./cuba.json"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBScS3ddiCV_xZwo_qQcIBTUCkOSzzt4-E&callback=initMap"
+    async defer></script>
   <script src="./map.js"></script> 
 
   </head>
@@ -40,7 +45,9 @@
     <div id="map-outer" class="col-md-12">
         <div id="story-container" class="col-md-4">
           <h2 id="heading"  style="text-align: center;" >Pre-Revolución </h2> 
-          <div class="list-group">
+          <div id="list-container">
+            <div class="list-group">
+            </div>
           </div>
         </div>
         <div id="map-container" class="col-md-8"></div>
@@ -55,8 +62,6 @@
 
 
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBScS3ddiCV_xZwo_qQcIBTUCkOSzzt4-E&callback=initMap"
-    async defer></script>
 
       </body>
 </html>
