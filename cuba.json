@@ -20,7 +20,7 @@ var data = {
 
     "1956": [
         {title: "Viaje en el Granma",
-            summary: "Empezando en el 1950, Ernesto Che Guevara viajó por todo Latino américa, observando los efectos del post-colonialismo estadounidense. Después de conocer a los hermanos Castro en la Ciudad México, los tres revolucionarios embarcaron el velero Granma con 82 soldados simpatizantes, viajando de Tuxpan a Playa Las Coloradas con la intención de derrocar el régimen de Fulgencio Batista.",
+            summary: "Empezando en el 1950, Ernesto Che Guevara viajó por todo Latino América, observando los efectos del post-colonialismo estadounidense. Después de conocer a los hermanos Castro en la Ciudad México, los tres revolucionarios embarcaron el velero Granma con 82 soldados simpatizantes, viajando de Tuxpan a Playa Las Coloradas con la intención de derrocar el régimen de Fulgencio Batista.",
             start: {lat: 20.9646, lng: -97.4045},
             end: {lat: 19.9256213, lng: -77.6921917}
         }
@@ -63,7 +63,7 @@ var data = {
     ],
 
     "1961": [
-        {title: "Bay of Pigs/Playa Girón",
+        {title: "Bahía Cochinos/Playa Girón",
             summary: "El 17 de Abril, un grupo paramilitar fundado por la CIA intento una invasión de Cuba. El objetivo principal de la misión era derrocar el gobierno comunista de Fidel Castro.",
             start: {lat: 14.0391, lng: -83.3950},
             end: {lat: 22.1604, lng: -81.1684}
@@ -127,7 +127,7 @@ var data = {
 
     "1983": [
         {title: "Scarface",
-            summary: "En esta película escrita por Oliver Stone y dirigida por Brian De Palma, Tony Montana llego a Miami como refugiado político y llega a ser un narcotraficante poderoso e influencial.",
+            summary: "En esta película escrita por Oliver Stone y dirigida por Brian De Palma, Tony Montana llego a Miami como refugiado político y llega a ser un narcotraficante poderoso y de gran influencia en el medio de la droga.",
             start: {lat: 23.0496779, lng: -82.8931465},
             end: {lat: 25.7822569, lng: -80.3711638}
         }
