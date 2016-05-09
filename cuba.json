@@ -1,6 +1,5 @@
 var data = {
 
-
     "1953": [
         {title: "Primer ataque de Fidel",
             summary: "El 26 de Julio Fidel y 160 soldados atacan el cuartel de Moncada. Este evento comienza la Revolución",
@@ -25,7 +24,7 @@ var data = {
             start: {lat: 20.9646, lng: -97.4045},
             end: {lat: 19.9256213, lng: -77.6921917}
         }
-    ],
+    ], 
 
     "1959": [ 
         {title: "Exilio de Batista",
@@ -53,6 +52,13 @@ var data = {
             summary: "En el més de Julio, Robert F. Williams, LeRoi Jones, y Harold Cruse visitaron a Cuba para estudiar la Revolución y sus implicaciones raciales. El proposito inicial del viaje era para encontrar apoyo en la izquierda afroamericana. El viaje revolucionó las ideas de los tres hombres acerca la cultura y comunidad afroamericana y la posibilidad de una revolución negra.",
             start: {lat: 40.8156598, lng: -73.9831079},
             end: {lat: 23.0496779, lng: -82.8931465}
+        },
+
+        {title: "Castro en Nueva York",
+          image: "http://1.bp.blogspot.com/-TmimJtUF7V8/UMipPiu8nZI/AAAAAAABF7k/VnHiozJPVrw/s1600/05+Looking+like+an+American+politician,+Fidel+Castro+hugs+Donna+Friedman+and+Lisa+Langer+at+the+Bronx+Zoo+on+April+22,+1959.jpg",
+            summary: "El 26 de Septiembre, Fidel Castro viajo a Nueva York como el delegado cubano a las Naciones Unidas. Quedandose en el Theresa Hotel en Harlem, Fidel conoció a varios líderes afroamericanos como Malcom X y Langston Hughes. En su discurso a las Naciones Unidas, Fidel denunció el imperialismo y la agresión estadounidense, esencialmente confirmando el fin de relaciones amistosas con E.E.U.U.",
+            start: {lat: 23.0496779, lng: -82.8931465},
+            end: {lat: 40.7042948, lng: -74.5384105}
         }
     ],
 
@@ -66,9 +72,16 @@ var data = {
 
     "1963": [
         {title: "Visita de Julio Cortázar",
-            summary: "Invitado para ser jurado en un concurso, el escritor Julio Cortázar viajó a Cuba por primera vez donde fue inspirado a comenzar su involucración política. En <i>La fascinación de las palabras</i>, Cortázar escribe que <<La Revolución cubana me mostró de una manera cruel y que me dolió mucho el gran vació político que había en mí, mi inutilidad política... lost temas políticos se fueron metiendo en mi literatura>>.",
+            summary: "Invitado para ser jurado en un concurso, el escritor Julio Cortázar viajó a Cuba por primera vez donde fue inspirado a comenzar su involucración política. En <i>La fascinación de las palabras</i>, Cortázar escribe que 'La Revolución cubana me mostró de una manera cruel y que me dolió mucho el gran vació político que había en mí, mi inutilidad política... lost temas políticos se fueron metiendo en mi literatura.'",
             start: {lat: 48.8585195, lng: 2.0673832},
             end: {lat: 23.0496779, lng: -82.8931465}
+        },
+
+        {title: "Castro en Moscú",
+          image: "http://englishrussia.com/images/112012/19635/msc1963005-13.jpg",
+            summary: "En Junio del 1963, Fidel hizo un viaje historico a Moscú donde visitó fabricas, bases militares secretas, un submarino nuclear, y fue honrado con el titulo de 'Héroe de la Unión Sovietica.'",
+            start: {lat: 23.113140, lng: -82.377351},
+            end: {lat: 55.7485171, lng: 37.0721224}
         }
     ],
 
@@ -112,6 +125,14 @@ var data = {
         }
     ],
 
+    "1983": [
+        {title: "Scarface",
+            summary: "En esta película escrita por Oliver Stone y dirigida por Brian De Palma, Tony Montana llego a Miami como refugiado político y llega a ser un narcotraficante poderoso e influencial.",
+            start: {lat: 23.0496779, lng: -82.8931465},
+            end: {lat: 25.7822569, lng: -80.3711638}
+        }
+    ],
+
     "1994": [
         {title: "Éxodo de los balseros",
             summary: "Durante el verano del 1994, las inmigraciones en masa de cubanos viajando en balsa a la Florida llegaron a su maximo. Durante la seguanda mitad del siglo XX hubo un flujo constante de balseros huyendo de Cuba, pero despues de la caída de la Unión Sovietica en el 1989, la situación económica en la isla dejo a muchos sin opción. Es estimado que en el verano del 1994 hubo 10.000 inmigrantes ilegales llegados a Miami.",
@@ -135,6 +156,6 @@ var data = {
             end: {lat: 23.0496779, lng: -82.8931465}
 
         }
-    ]
+    ],
 
 };
