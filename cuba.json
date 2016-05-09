@@ -20,7 +20,7 @@ var data = {
 
     "1956": [
         {title: "Viaje en el Granma",
-            summary: "Empezando en el 1950, Ernesto Che Guevara viajó por todo Latinoamerica, observando los efectos del post-colonialismo estadounidense. Despues de conocer a los hermanos Castro en la Ciudad Mexico, los tres revolucionarios embarcaron el velero Granma con 82 soldados simpatizantes, viajando de Tuxpan a Playa Las Coloradas con la intención de derrocar el régimen de Fulgencio Batista.",
+            summary: "Empezando en el 1950, Ernesto Che Guevara viajó por todo Latino américa, observando los efectos del post-colonialismo estadounidense. Después de conocer a los hermanos Castro en la Ciudad México, los tres revolucionarios embarcaron el velero Granma con 82 soldados simpatizantes, viajando de Tuxpan a Playa Las Coloradas con la intención de derrocar el régimen de Fulgencio Batista.",
             start: {lat: 20.9646, lng: -97.4045},
             end: {lat: 19.9256213, lng: -77.6921917}
         }
@@ -28,13 +28,13 @@ var data = {
 
     "1959": [ 
         {title: "Exilio de Batista",
-            summary: "El 1 de Enero, despues de la derrota en la ciudad de Santa Clara, Fulgencio Batista huyo de Havana, volando a Ciudad Trujillo en la Republica Dominicana con 40 simpatizantes y familia inmediata. Segun ciertas fuentes, se llevo mas de $300 millones recaudados por soborno.",
+            summary: "El 1 de Enero, después de la derrota en la ciudad de Santa Clara, Fulgencio Batista huyo de Habana, volando a Ciudad Trujillo en la República Dominicana con 40 simpatizantes y familia inmediata. Según ciertas fuentes, se llevo mas de $300 millones recaudados por soborno.",
             start: {lat: 23.113140, lng: -82.377351},
             end: {lat: 18.4806503, lng: -70.0869828}
         },
         
-        {title: "Asilio politico de Batista",
-            summary: "Despues de haber sido rechazado asilio politico en E.E.U.U. y en Mexico, el dictador António Salazar de Portugal acepto bajo la condición de que se absteniera de política. El 8 de Enero, Batista se fue a Portugal y paso el resto de sus días en la peninsula Iberica hasta su muerte el 6 de Agosto, 1973 en Marbella, España.",
+        {title: "Asilo político de Batista",
+            summary: "Después de haber sido rechazado asilo político en E.E.U.U. y en México, el dictador António Salazar de Portugal acepto bajo la condición de que se abstuviera de política. El 8 de Enero, Batista se fue a Portugal y paso el resto de sus días en la península Ibérica hasta su muerte el 6 de Agosto, 1973 en Marbella, España.",
             start: {lat: 18.4806503, lng: -70.0869828},
             end: {lat: 38.7223, lng: 9.1393}
         }
@@ -49,14 +49,14 @@ var data = {
         },
 
         {title: "Third World Left",
-            summary: "En el més de Julio, Robert F. Williams, LeRoi Jones, y Harold Cruse visitaron a Cuba para estudiar la Revolución y sus implicaciones raciales. El proposito inicial del viaje era para encontrar apoyo en la izquierda afroamericana. El viaje revolucionó las ideas de los tres hombres acerca la cultura y comunidad afroamericana y la posibilidad de una revolución negra.",
+            summary: "En el mes de Julio, Robert F. Williams, LeRoi Jones, y Harold Cruse visitaron a Cuba para estudiar la Revolución y sus implicaciones raciales. El propósito inicial del viaje era para encontrar apoyo en la izquierda afroamericana. El viaje revolucionó las ideas de los tres hombres acerca la cultura y comunidad afroamericana y la posibilidad de una revolución negra.",
             start: {lat: 40.8156598, lng: -73.9831079},
             end: {lat: 23.0496779, lng: -82.8931465}
         },
 
         {title: "Castro en Nueva York",
           image: "http://1.bp.blogspot.com/-TmimJtUF7V8/UMipPiu8nZI/AAAAAAABF7k/VnHiozJPVrw/s1600/05+Looking+like+an+American+politician,+Fidel+Castro+hugs+Donna+Friedman+and+Lisa+Langer+at+the+Bronx+Zoo+on+April+22,+1959.jpg",
-            summary: "El 26 de Septiembre, Fidel Castro viajo a Nueva York como el delegado cubano a las Naciones Unidas. Quedandose en el Theresa Hotel en Harlem, Fidel conoció a varios líderes afroamericanos como Malcom X y Langston Hughes. En su discurso a las Naciones Unidas, Fidel denunció el imperialismo y la agresión estadounidense, esencialmente confirmando el fin de relaciones amistosas con E.E.U.U.",
+            summary: "El 26 de Septiembre, Fidel Castro viajo a Nueva York como el delegado cubano a las Naciones Unidas. Quedándose en el Theresa Hotel en Harlem, Fidel conoció a varios líderes afroamericanos como Malcom X y Langston Hughes. En su discurso a las Naciones Unidas, Fidel denunció el imperialismo y la agresión estadounidense, esencialmente confirmando el fin de relaciones amistosas con E.E.U.U.",
             start: {lat: 23.0496779, lng: -82.8931465},
             end: {lat: 40.7042948, lng: -74.5384105}
         }
@@ -72,14 +72,14 @@ var data = {
 
     "1963": [
         {title: "Visita de Julio Cortázar",
-            summary: "Invitado para ser jurado en un concurso, el escritor Julio Cortázar viajó a Cuba por primera vez donde fue inspirado a comenzar su involucración política. En <i>La fascinación de las palabras</i>, Cortázar escribe que 'La Revolución cubana me mostró de una manera cruel y que me dolió mucho el gran vació político que había en mí, mi inutilidad política... lost temas políticos se fueron metiendo en mi literatura.'",
+            summary: "Invitado para ser jurado en un concurso, el escritor Julio Cortázar viajó a Cuba por primera vez donde fue inspirado a comenzar su involucración política. En <i>La fascinación de las palabras</i>, Cortázar escribe que 'La Revolución cubana me mostró de una manera cruel y que me dolió mucho el gran vació político que había en mí, mi inutilidad política... los temas políticos se fueron metiendo en mi literatura.'",
             start: {lat: 48.8585195, lng: 2.0673832},
             end: {lat: 23.0496779, lng: -82.8931465}
         },
 
         {title: "Castro en Moscú",
           image: "http://englishrussia.com/images/112012/19635/msc1963005-13.jpg",
-            summary: "En Junio del 1963, Fidel hizo un viaje historico a Moscú donde visitó fabricas, bases militares secretas, un submarino nuclear, y fue honrado con el titulo de 'Héroe de la Unión Sovietica.'",
+            summary: "En Junio del 1963, Fidel hizo un viaje histórico a Moscú donde visitó fabricas, bases militares secretas, un submarino nuclear, y fue honrado con el titulo de 'Héroe de la Unión Soviética.'",
             start: {lat: 23.113140, lng: -82.377351},
             end: {lat: 55.7485171, lng: 37.0721224}
         }
@@ -87,7 +87,7 @@ var data = {
 
     "1964": [
         {title: "Soy Cuba",
-            summary: "El director cinematográfico sovietico Mikhail Kalatozov creó la película 'Soy Cuba' con el apoyo de la Unión Sovietica para promover el socialismo internacional. En la película, se muestra el sufrimiento del pueblo cubano antes de la revolución. Aparte de cualquier connotación política, la película ha recibido alabanzas de directores como Martin Scorcese por sus tomas cinematográficas innovadoras.",
+            summary: "El director cinematográfico soviético Mikhail Kalatozov creó la película 'Soy Cuba' con el apoyo de la Unión Soviética para promover el socialismo internacional. En la película, se muestra el sufrimiento del pueblo cubano antes de la revolución. Aparte de cualquier connotación política, la película ha recibido alabanzas de directores como Martin Scorcese por sus tomas cinematográficas innovadoras.",
             start: {lat: 55.7485171, lng: 37.0721224},
             end: {lat: 23.113140, lng: -82.377351}
         }
@@ -95,7 +95,7 @@ var data = {
 
     "1965": [
         {title: "El Che viaja al Congo",
-            summary: "Por razones desconocidas por el publico Fidel Castro anuncio el retiro de Che Guevara de la isla y leyo una carta de despedida a nombre del Che. Al irse de Cuba, Che Guevara viajó al Congo con 12 soldados cubanos para ayudar el movimiento guerrilla anti-Mobutu bajo el lideraje de Laurent-Desire Kabila. Este intento termino en fracaso.",
+            summary: "Por razones desconocidas por el publico Fidel Castro anuncio el retiro de Che Guevara de la isla y leyó una carta de despedida a nombre del Che. Al irse de Cuba, Che Guevara viajó al Congo con 12 soldados cubanos para ayudar el movimiento guerrilla anti-Mobutu bajo el liderare de Laurent-Desire Kabila. Este intento termino en fracaso.",
             start: {lat: 23.113140, lng: -82.377351},
             end: {lat: -4.4866518, lng: 14.7272946}
         }
@@ -103,7 +103,7 @@ var data = {
 
     "1966": [
         {title: "Che aparece en Bolivia",
-            summary: "El 3 de Noviembre, Che Guevara viajó de Montevideo a La Paz bajo el seudónimo Adolfo Mena González. En la región de Ñancahuazú, Guevara acumuló sus fuerzas guerrilleras llamadas el Ejército de Liberación Nacional de Bolivia. Despues de pocas logros militares tempranos, Guevara fue herido y capturado el 8 de Octubre del 1967. El 9 de Octubre, Guevara fue ejecutado.",
+            summary: "El 3 de Noviembre, Che Guevara viajó de Montevideo a La Paz bajo el seudónimo Adolfo Mena González. En la región de Ñancahuazú, Guevara acumuló sus fuerzas guerrilleras llamadas el Ejército de Liberación Nacional de Bolivia. Después de pocas logros militares tempranos, Guevara fue herido y capturado el 8 de Octubre del 1967. El 9 de Octubre, Guevara fue ejecutado.",
             start: {lat: -34.8190579, lng: -56.5103844},
             end: {lat: -14.9294713, lng: -70.431319}
         }
@@ -111,7 +111,7 @@ var data = {
 
     "1968": [
         {title: "El súper",
-            summary: "Roberto, el protagonista de la película El Súper, es exiliado de Cuba con su esposa y su hija. En Nueva York, se encuentra aislado y fuera de lugar. Asi como el ficticio súper, hay más de 100 mil inmigrantes cubanos en la ciudad de Nueva York.",
+            summary: "Roberto, el protagonista de la película El Súper, es exiliado de Cuba con su esposa y su hija. En Nueva York, se encuentra aislado y fuera de lugar. Así como el ficticio súper, hay más de 100 mil inmigrantes cubanos en la ciudad de Nueva York.",
             start: {lat: 23.0496779, lng: -82.8931465},
             end: {lat: 40.7042948, lng: -74.5384105}
         }
@@ -119,7 +119,7 @@ var data = {
 
     "1980": [
         {title: "Éxodo de Mariel",
-            summary: "Despues de una demonstración en la cual 10.000 individuos ocuparon la embajada peruana en busqueda de refugio, el gobierno cubano decidio dejar a quien quisiera irse. Entre el 15 de Abril y el 31 de Octubre, 125 mil cubanos viajaron a la Florida buscando asilo político. Luego se descubrio que gran cantidad de los refugiados venian de las carceles y hospitales de salud mental.",
+            summary: "Después de una demostración en la cual 10.000 individuos ocuparon la embajada peruana en búsqueda de refugio, el gobierno cubano decidió dejar a quien quisiera irse. Entre el 15 de Abril y el 31 de Octubre, 125 mil cubanos viajaron a la Florida buscando asilo político. Luego se descubrió que gran cantidad de los refugiados venían de las cárceles y hospitales de salud mental.",
             start: {lat: 22.9859488, lng: -82.7701238},
             end: {lat: 25.7822569, lng: -80.3711638}
         }
@@ -135,7 +135,7 @@ var data = {
 
     "1994": [
         {title: "Éxodo de los balseros",
-            summary: "Durante el verano del 1994, las inmigraciones en masa de cubanos viajando en balsa a la Florida llegaron a su maximo. Durante la seguanda mitad del siglo XX hubo un flujo constante de balseros huyendo de Cuba, pero despues de la caída de la Unión Sovietica en el 1989, la situación económica en la isla dejo a muchos sin opción. Es estimado que en el verano del 1994 hubo 10.000 inmigrantes ilegales llegados a Miami.",
+            summary: "Durante el verano del 1994, las inmigraciones en masa de cubanos viajando en balsa a la Florida llegaron a su máximo. Durante la segunda mitad del siglo XX hubo un flujo constante de balseros huyendo de Cuba, pero después de la caída de la Unión Soviética en el 1989, la situación económica en la isla dejo a muchos sin opción. Es estimado que en el verano del 1994 hubo 10.000 inmigrantes ilegales llegados a Miami.",
             start: {lat: 23.0496779, lng: -82.8931465},
             end: {lat: 25.7822569, lng: -80.3711638}
         }
@@ -143,7 +143,7 @@ var data = {
 
     "2009": [
         {title: "Rueda de prensa de Obama en Trinidad y Tobago",
-            summary: "El 17 de Abril, Obama dió una rueda de prensa en Puerto de España donde anunció que los Estados Unidos estaba buscando un nuevo comienzo con el gobierno cubano.",
+            summary: "El 17 de Abril, Obama dio una rueda de prensa en Puerto de España donde anunció que los Estados Unidos estaba buscando un nuevo comienzo con el gobierno cubano.",
             start: {lat: 38.8976763, lng: -77.0387185},
             end: {lat: 10.6637277, lng: -61.5639026}
         }
